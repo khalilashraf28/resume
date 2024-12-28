@@ -1,0 +1,235 @@
+%-------------------------
+% Resume in Latex
+% Author : Muhammad Khalil Ashraf
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Muhammad Khalil Ashraf} \\ \vspace{1pt}
+    \small +923098627770 $|$ \href{mailto:khalilashraf28@gmail.com}{\underline{khalilashraf28@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/muhammad-khalil-ashraf-95061a270/}{\underline{linkedin.com/in/muhammad-khalil-ashraf}} $|$
+    \href{https://github.com/khalilashraf28}{\underline{github.com/khalilashraf28}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sir Syed University of Engineering and Technology}{Karachi, Pakistan}
+      {Bachelor of Science in Computer Engineering}{ Oct 2021 -- Present}
+    \resumeSubheading
+      {Jinnah Government College}{Karachi, Pakistan}
+      {Pre-Engineering}{Aug. 2019 -- Aug 2021}
+    \resumeSubheading
+      {As-suffah Madina-tul Ilm Academy}{Karachi, Pakistan}
+      {Science}{Jan. 2011 -- July 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Artificial Intelligence Intern}{Oct 2024 -- Present}
+      {Xclusive Trading Inc.}{}
+     \resumeItemListStart
+      \resumeItem{Designed and implemented an advanced Multi-Camera Customer and Employee Tracking and Re-Identification (ReID) System for over 230 Metro T-Mobile stores owned by XTI across the US, leveraging cutting-edge technologies to enhance operational efficiency.}
+      \resumeItem{Analyzed multiple real-time camera streams to extract key performance metrics, delivering actionable insights that improved customer engagement, staff efficiency, and location security, including commission and chargeback data analysis.}
+      \resumeItem{Designed and deployed an InfoBip chatbot to assist new Store Managers and Representatives, streamlining the onboarding process and improving access to information.}
+      \resumeItem{Developed Streamlit dashboards for real-time data visualization and insights across the company, enabling data-driven decisions and optimizing overall operations, including performance, commission, goals, and attendance dashboards.}
+      \resumeItem{Skills Gained: Enhanced expertise in computer vision, ReID, and Streamlit.}
+    \resumeItemListEnd
+
+      
+    \resumeSubheading
+      {Machine Learning Intern}{May 2024 -- June 2024}
+      {CodexCue}{Remote}
+      \resumeItemListStart
+        \resumeItem{Collaborated on machine learning model development and implementation for real-world applications.}
+        \resumeItem{Conducted data preprocessing and feature engineering to improve model accuracy.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Science Intern}{September 2023 -- October 2023}
+      {TechnoHacks}{Remote}
+      \resumeItemListStart
+        \resumeItem{Built predictive models and performed statistical analysis on large datasets.}
+        \resumeItem{Automated data visualization processes to generate insights for stakeholders.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Science Intern}{August 2023 -- September 2023}
+      {CodSoft}{Remote}
+      \resumeItemListStart
+        \resumeItem{Applied different types of machine learning algorithms and techniques for analysis.}
+        \resumeItem{Performed data preprocessing and developed insightful data visualizations to present findings.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Front End Developer Intern}{August 2023 -- September 2023}
+      {Interns Pakistan}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented responsive web interfaces using HTML, CSS, Bootstrap, and JavaScript.}
+        \resumeItem{Optimized website performance and ensured cross-browser compatibility.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming Languages}{: Python, Java, C++, MATLAB, SQL} \\
+        \textbf{Machine Learning}{: Development of predictive models, Classification, Regression, and Clustering tasks} \\
+        \textbf{Data Visualization}{: Matplotlib, Seaborn, ggplot2, Plotly} \\
+        \textbf{Data Manipulation and Cleaning}{: Data cleaning, Data preprocessing, Feature engineering} \\
+        \textbf{Deep Learning}{: TensorFlow, CNN} \\
+        \textbf{Libraries}{: Pandas, NumPy, TensorFlow, Scikit-Learn} \\
+        \textbf{Frameworks}{: Streamlit, BootStrap, Flask} \\
+    }}
+\end{itemize}
+
+
+%-----------VOLUNTEERING/COMMUNITY SERVICES-----------
+\section{Volunteering/Community Services}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Chairperson}{ (IEEE-SSUET Computer Society)} \hfill October 2024 - Present \\
+        \textbf{Core Team Member}{ (Google Developer Student Club - SSUET)} \hfill August 2023 - August 2024 \\
+        \textbf{Marketing Team Lead}{ (Event: STEP-GEN'23 by IEEE Young Professionals, IEEE SSUET Student Branch)} \hfill STEP-GEN'23 
+    }}
+\end{itemize}
+
+%-----------LICENSES AND CERTIFICATIONS-----------
+\section{Licenses and Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{IBM Data Science Professional Certificate}{ (IBM)} \hfill Issued October 31, 2023 \\
+        \textit{Link: \href{https://www.coursera.org/account/accomplishments/professional-cert/2MLAPSSJ96LS}{https://www.coursera.org/account/accomplishments/professional-cert/2MLAPSSJ96LS}} \\
+        \textbf{Machine Learning}{ (DeepLearning.ai and Stanford University)} \hfill Issued August 27, 2023 \\
+        \textit{Link: \href{https://www.coursera.org/account/accomplishments/specialization/9778UDG7CZS5}{https://www.coursera.org/account/accomplishments/specialization/9778UDG7CZS5}} \\
+        \textbf{Artificial Intelligence}{ (National Vocational and Technical Training Commission NAVTTC)} \hfill Issued August 22, 2023 \\
+        \textit{Link: \href{https://drive.google.com/file/d/1FSup__JP3Q3Ow9rN3iB2EWKxxT1_M6Dh/view?pli=1}{https://drive.google.com/file/d/1FSup__JP3Q3Ow9rN3iB2EWKxxT1_M6Dh/view?pli=1}} \\
+        \textbf{Learn to Program: The Fundamentals}{ (University of Toronto)} \hfill Issued October 30, 2022 \\
+        \textit{Link: \href{https://www.coursera.org/account/accomplishments/verify/8Q99GCQVDV9Z}{https://www.coursera.org/account/accomplishments/verify/8Q99GCQVDV9Z}} \\
+        \textbf{Graphics Designer}{ (DigiSkills.pk)} \hfill Issued November 30, 2019 \\
+        \textit{Link: \href{https://digiskills.pk/verify/}{https://digiskills.pk/verify/} (Certificate ID: JXQP3P3PQ)} 
+    }}
+\end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}
