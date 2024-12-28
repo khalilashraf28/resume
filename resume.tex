@@ -1,10 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Muhammad Khalil Ashraf
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -18,20 +11,8 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{ragged2e}  % Add this line to enable \justify
 \input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -106,11 +87,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape Muhammad Khalil Ashraf} \\ \vspace{1pt}
     \small +923098627770 $|$ \href{mailto:khalilashraf28@gmail.com}{\underline{khalilashraf28@gmail.com}} $|$ 
@@ -118,6 +94,10 @@
     \href{https://github.com/khalilashraf28}{\underline{github.com/khalilashraf28}}
 \end{center}
 
+%-----------SUMMARY-----------
+\section{SUMMARY}
+\justify
+Driven data enthusiast with a background in Computer Engineering, currently an undergraduate specializing in data science and machine learning. Highly proficient in Exploratory Data Analysis (EDA), Data Science methodologies, SQL and Machine Learning (ML),. Hands-on experience gained through industry internships, continuously refining skills through independent data-driven projects. Equipped to excel in digital intelligence environments, leveraging cutting-edge machine learning techniques and staying at the forefront of technological advancements. Passionate about solving complex data challenges, with a relentless drive to master new tools and methodologies in data science and data management.
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -148,7 +128,6 @@
       \resumeItem{Skills Gained: Enhanced expertise in computer vision, ReID, and Streamlit.}
     \resumeItemListEnd
 
-      
     \resumeSubheading
       {Machine Learning Intern}{May 2024 -- June 2024}
       {CodexCue}{Remote}
@@ -186,7 +165,6 @@
 
 
 
-%
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
@@ -229,7 +207,4 @@
     }}
 \end{itemize}
 
-
-
-%-------------------------------------------
 \end{document}
